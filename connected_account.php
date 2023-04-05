@@ -81,3 +81,4 @@ else
 
 $response->redirect($redirect, 302);
 $response->send($request);
+$session->block('xf_users')
