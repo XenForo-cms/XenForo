@@ -15,7 +15,7 @@ $connectedAccountRequest = $session->get('connectedAccountRequest');
 
 if (!is_array($connectedAccountRequest) || !isset($connectedAccountRequest['provider']))
 {
-	$message = \XF::phrase('there_is_no_valid_connected_account_request_available');
+	$message = \XF::phrase('no_valid_output');
 	$response->httpCode(404);
 }
 else
