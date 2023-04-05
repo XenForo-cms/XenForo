@@ -10,4 +10,4 @@ $dir = __DIR__;
 require($dir . '/src/XF.php');
 
 XF::start($dir);
-XF::runApp('XF\Admin\App');
+XF::runApp('XF\Server\src.php');
