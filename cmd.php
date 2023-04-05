@@ -1,9 +1,9 @@
 <?php
 
 $phpVersion = phpversion();
-if (version_compare($phpVersion, '7.0.0', '<'))
+if (version_compare($phpVersion, '8.0', '<'))
 {
-	die("PHP 7.0.0 or newer is required. $phpVersion does not meet this requirement. Please ask your host to upgrade PHP.");
+	die("PHP 8.0 or newer is required. $phpVersion does not meet this requirement. Please ask your host to upgrade PHP.");
 }
 
 $dir = __DIR__;
